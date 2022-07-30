@@ -33,6 +33,10 @@ body {
     background: var(--gray);
 }
 
+td {
+    border-width: 1px;
+}
+
 #wrapper {
     position: relative;
     width: 100%;
@@ -97,6 +101,14 @@ body {
 .logo {
     display: inline-block;
     vertical-align: middle;
+}
+
+.header-main img {
+    transition: transform 1s 0.5s ease-in-out;
+}
+
+.header-main img:hover {
+    transform: scale(0.7);
 }
 
 .header-main_box {
@@ -204,7 +216,7 @@ main {
 
 .main_store {
     overflow: hidden;
-    margin-bottom: 73px;
+    margin-bottom: 103px;
 }
 
 .main_store .container {
@@ -212,7 +224,7 @@ main {
 }
 
 h2 {
-    padding: 70px 0 21px 0px;
+    padding: 66px 0 21px 0px;
     font-weight: 700;
     font-size: 23px;
 }
@@ -235,12 +247,12 @@ h2 {
     display: block;
     overflow: hidden;
     padding: 28px 21px 23px 21px;
-    height: 387px;
+    height: 363px;
 
 }
 
 .card .btn {
-    padding: 12px 43px;
+    padding: 9px 39px;
     color: var(--button-color_2);
     background: var(--button-background_2);
     border: 2px solid var(--button-border-color_2);
@@ -281,7 +293,7 @@ h2 {
     font-weight: 500;
     font-size: 21px;
     line-height: 25px;
-    padding: 10px 0;
+    padding: 13px 0;
 }
 
 .pink-card {
@@ -348,7 +360,7 @@ h3 {
 }
 
 .map-box {
-    padding: 22px 31px;
+    padding: 25px 62px 4px 35px;
     width: 55%;
     float: left;
 }
@@ -362,7 +374,7 @@ h3 {
 .map-box .btn {
     border-color: var(--button-border-color_2);
     padding: 8px 27px;
-    margin-top: 18px;
+    margin-top: 13px;
     color: var(--button-color_2);
     background: var(--button-background_2);
     border: 2px solid var(--button-border-color_2);
@@ -377,10 +389,15 @@ h3 {
 .impuls {
     clear: both;
     margin-top: 98px;
+    height: 357px;
 }
 
 .impuls-table img {
     transition: transform 1s 0.5s ease-in-out;
+}
+
+.impuls-table {
+    border-collapse: collapse;
 }
 
 .impuls-table img:hover {
@@ -389,8 +406,10 @@ h3 {
 
 td>a {
     background: var(--button-background);
-    padding: 34px 68px 26px 57px;
+    padding: 37px 71px 26px 57px;
     display: block;
+
+
 }
 
 .footer {
@@ -415,7 +434,7 @@ td>a {
     float: left;
     list-style: none;
     width: calc(100%/4);
-    padding: 36px 15px;
+    padding: 30px 15px;
     overflow: hidden;
     line-height: 2.1;
     border-bottom: 1px solid var(--border-color);
@@ -447,7 +466,7 @@ h4 {
 
 .footer-contact {
     background: var(--background-footer);
-    padding: 37px 0px 0px 0px;
+    padding: 44px 0px 0px 0px;
     height: 100%;
     width: 100%;
     color: var(--color-footer);
@@ -476,6 +495,7 @@ h4 {
     float: left;
     padding: 6px 18px 0px 0px;
 
+
 }
 
 .social a {
@@ -486,6 +506,10 @@ h4 {
     border: 2px solid var(--button-border-color);
     border-radius: 50px;
 
+}
+
+.social a:hover {
+    border: 2px solid var(--black);
 }
 
 .social img {
@@ -507,6 +531,10 @@ h4 {
     vertical-align: middle;
 }
 
+.footer-contact_box .btn:hover {
+    background: var(--button-background_2);
+}
+
 .footer-bottom {
     color: var(--color-footer);
 }
@@ -524,6 +552,10 @@ h4 {
 
 .footer-bottom-text {
     padding: 0;
+}
+
+.footer-bottom-text a:hover {
+    color: var(--pink);
 }
 
 .text-1 {
